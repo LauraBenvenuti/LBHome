@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+section,
+footer {
+    display: block;
+    min-width: 360px;
+}
+
+body {
+    font-family: 'Palatino', 'Didot', serif;
+    font-style: italic;
+    color: #666;
+}
+
+/* Header and Navigation */
+body>header {
+    padding: 1em 2em;
+}
+
+body>header>ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+body>header ul {
+    list-style: none;
+}
+
+body>header address {
+    font-size: 1em;
+    width: 190px;
+    /* margin-left: 30px; */
+    text-align: left;
+}
+
+body>header>ul>li:nth-child(2) img {
+    width: 80%;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+
+body>header>ul>li:last-child {
+    width: 200px;
+    margin-right: 20px;
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Main */
+
+h2 {
+    font-size: 1.4em;
+    padding-bottom: .5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 0 1.5em;
+}
+
+main ol,
+main>ul {
+    padding-top: 1em;
+    list-style: none;
+}
+
+/* main>ul>li  */
+main ol li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: .6em;
+
+}
+
+main li>h3 {
+    width: 20%;
+    min-width: 100px;
+}
+
+main ol li {
+    width: 100%;
+}
+
+main ol li section,
+main ul li section {
+    width: 79%;
+}
+
+/* main section p {
+    font-size: large;
+} */
+
+main li p {
+    font-size: medium;
+    font-weight: normal;
+    padding-bottom: .6em;
+
+}
+
+
+section img {
+    padding-left: 0.3em;
+}
+
+
+
+/* Footer */
+
+footer {
+    height: 50px;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: left;
+    font-size: 0.8em;
+}
+
+/* tablet (landscape) */
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+
+    #contact {
+        margin-top: 1em;
+    }
+
+    #contact>li#home {
+        display: none;
+    }
+
+    /* header>ul>li#foto {
+        display: none;
+    } */
+
+    nav {
+        height: 120px;
+    }
+
+    nav ul {
+        width: 190px;
+        height: 90px;
+    }
+
+    main>section h3 {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    main ol li {
+        display: block;
+    }
+
+    /* main ol li section h3 {
+        font-weight: normal;
+
+    } */
+
+    main section article {
+
+        display: none;
+    }
+
+    /* main section p {
+        display: none;
+
+    } */
+
+    /* .dissertatie {
+        display: none;
+    } */
+
+}
+
+/* tablet (portrait), smartphone */
+@media only screen and (max-width: 480px) {
+
+    #contact {
+        margin-top: 1em;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #foto {
+        display: none;
+    }
+
+    nav {
+        height: 120px;
+    }
+
+    nav ul {
+        width: 190px;
+        height: 90px;
+    }
+
+    main>section h3 {
+        font-size: 1em;
+    }
+
+    main ol li {
+        display: block;
+    }
+
+    main ol li section h3 {
+        font-weight: normal;
+
+    }
+
+    main section article {
+
+        display: none;
+    }
+
+    main section p {
+        display: none;
+
+    }
+
+    /* .dissertatie {
+        display: none;
+    } */
+
+}
