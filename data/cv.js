@@ -51,14 +51,14 @@ const cv = [
                     {
                         "titel": "2019",
                         "code": "PhD",
-                        "instituut": "Open Universiteit, NL",
-                        "omschrijving": "PhD, 'Computing Education in a Hybrid World' ",
+                        "instituut": "Open Universiteit, NL, PhD",
+                        "omschrijving": "'Computing Education in a Hybrid World'",
                         "scriptie": "Dissertatie: Informatica in hybride curricula, 'Computing Education in a Hybrid World'"
                     },
                     {
                         "titel": "2017",
                         "code": "BSKE",
-                        "instituut": "Hogeschool van Amsterdam, NL",
+                        "instituut": "Hogeschool van Amsterdam, NL, SKE",
                         "omschrijving": "Senior Kwalificatie Examinering",
                         "scriptie": ""
                     },
@@ -72,8 +72,8 @@ const cv = [
                     {
                         "titel": "1986",
                         "code": "Dott",
-                        "instituut": "Università degli Studi di Pisa, I",
-                        "omschrijving": "Doctoraalexamen Wiskunde. Richting: Wiskundige Logica, Subfaculteit Informatica",
+                        "instituut": "Università degli Studi di Pisa, I, Doctoraalexamen Wiskunde.",
+                        "omschrijving": "Richting: Wiskundige Logica, Subfaculteit Informatica",
                         "scriptie": "scriptie: 'Ricorsività e continuità nei tipi superiori'"
                     }
                     // ,{
@@ -168,7 +168,7 @@ const cv = [
                     {
                         "titel": "2019",
                         "code": "PhD",
-                        "instituut": "Open Universiteit, NL",
+                        "instituut": "Open Universiteit, NL, PhD",
                         "omschrijving": "Dottorato di ricerca 'Computing Education in a Hybrid World'; supervisori: prof. Johan Versendaal, prof. Gerrit C. van der Veer",
                         "scriptie": "Tesi: L' Informatica nei corsi di laurea ibridi, 'Computing Education in a Hybrid World'"
                     },
@@ -189,8 +189,8 @@ const cv = [
                     {
                         "titel": "1986",
                         "code": "Dott",
-                        "instituut": "Università degli Studi di Pisa, I",
-                        "omschrijving": "Laurea in Matematica, indirizzo: Logica Matematica, Dipartimento di Informatica",
+                        "instituut": "Università degli Studi di Pisa, I, Laurea in Matematica",
+                        "omschrijving": "indirizzo: Logica Matematica, Dipartimento di Informatica",
                         "scriptie": "Tesi: 'Ricorsivita' e continuita' nei tipi superiori', prof. G. Longo"
                     }
                 ]
@@ -275,8 +275,8 @@ const cv = [
                     {
                         "titel": "2019",
                         "code": "PhD",
-                        "instituut": "Open Universiteit, NL",
-                        "omschrijving": "PhD, 'Computing Education in a Hybrid World'",
+                        "instituut": "Open Universiteit, NL, PhD",
+                        "omschrijving": "Dissertation: 'Computing Education in a Hybrid World'",
                         "scriptie": "Dissertation: 'Computing Education in a Hybrid World'"
                     },
                     {
@@ -296,8 +296,8 @@ const cv = [
                     {
                         "titel": "1986",
                         "code": "Dott",
-                        "instituut": "Università degli Studi di Pisa, I",
-                        "omschrijving": "Master degree in Matematics, Mathematical Logic, Dept. of Computer Science",
+                        "instituut": "Università degli Studi di Pisa, I, Master degree in Matematics,",
+                        "omschrijving": "Thesis in Mathematical Logic, Dept. of Computer Science",
                         "scriptie": "scriptie: 'Ricorsività e continuità nei tipi superiori' (Transl: 'Recursion and Continuity in Higher Order Types')"
                     }
                 ]
