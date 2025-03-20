@@ -120,7 +120,7 @@ const allePublicaties = [
         "publicaties": [
             {
                 "publCode": "Diss",
-                "artikel": "Benvenuti, Laura, 'Computing Education in a Hybrid World' Dissertation, Open Universiteit Nederland, 2019",
+                "artikel": "Benvenuti, Laura, 'Computing Education in a Hybrid World' Dissertation, Open Universiteit Nederland, 2019 ",
                 "link": "./docs/ComputingEduHybridWorld.pdf",
                 "lekenpraatje": "https://youtu.be/oA67tMIzoJY"
             },

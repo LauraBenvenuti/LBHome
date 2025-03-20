@@ -92,8 +92,7 @@ function addMedia(publicatie) {
 
         } else {
             myLink.href = publicatie.lekenpraatje
-            myLink.class = "Lekenpraatje"
-            myLink.textContent = " - Lekenpraatje"
+            myLink.textContent = "Lekenpraatje"
         }
 
 
