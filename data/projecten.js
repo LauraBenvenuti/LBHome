@@ -109,8 +109,9 @@ const allePublicaties = [
         "projectCode": "DidInf",
         "publicaties": [
             {
+                "publCode": "Emp",
                 "artikel": "Benvenuti,L.,Stam, U.: 'Empowering to code a diverse population of future digital designers', Atti Didamatica 2022, Milano, 10-11.11.2022, pag. 265-274",
-                "link": "../docs/empoweringToCode.pdf"
+                "link": "./docs/empoweringToCode.pdf"
             }
         ]
     },
@@ -118,11 +119,13 @@ const allePublicaties = [
         "projectCode": "HybridComp",
         "publicaties": [
             {
+                "publCode": "Diss",
                 "artikel": "Benvenuti, Laura, 'Computing Education in a Hybrid World' Dissertation, Open Universiteit Nederland, 2019",
-                "link": "../docs/ComputingEduHybridWorld.pdf",
+                "link": "./docs/ComputingEduHybridWorld.pdf",
                 "lekenpraatje": "https://youtu.be/oA67tMIzoJY"
             },
             {
+                "publCode": "Diss-3",
                 "artikel": "Benvenuti, Laura, Erik Barendsen, Gerrit C. van der Veer, and Johan Versendaal. 'Understanding Computing in a Hybrid World: On the Undergraduate Curriculum Front-End Development.' In Proceedings of the 49th ACM Technical Symposium on Computer Science Education, pp. 580-585. ACM, 2018.",
                 "hoofdstuk": "chapter 3"
             },
@@ -135,8 +138,9 @@ const allePublicaties = [
             //     "link": "../docs/CultureFormalisation.pdf"
             // },
             {
+                "publCode": "MMdoc",
                 "artikel": "Benvenuti L.,G.C.van der Veer: 'Multimedia design kan je leren, kunnen we het ook doceren?', In: F.J. Verbeek, D. Lenior and M. Steen (Eds.) Change! - Proceedings CHI-NL 2009. CHI-NL, Leiden, Netherlands, 39-41",
-                "link": "../docs/MultimediaDesignDoceren.pdf",
+                "link": "./docs/MultimediaDesignDoceren.pdf",
             }
         ]
 
@@ -146,14 +150,17 @@ const allePublicaties = [
         "projectCode": "OnlineEdu",
         "publicaties": [
             {
+                "publCode": "Diss-9",
                 "artikel": "Benvenuti,L.,E.Rogier,G.C. van der Veer: 'E-learning in a distance learning curriculum:a workplace approach', Proceedings of the 2012 European Conference on Cognitive Ergonomics, Edinburgh, 29-31.08.2012",
                 "hoofdstuk": "chapter 9"
             },
             {
+                "publCode": "Guid",
                 "artikel": "Menendez Blanco, M., G. C. van der Veer, L. Benvenuti, P. A. Kirschner (2012): Design Guidelines for Self-assessment Support for Adult Academic Distance Learning, in: Shalin Hai-Jew (ed.) 'Constructing Self-Discovery Learning Spaces Online: Scaffolding and Decision Making Technologies', IGI-global, 2012",
                 "url": "http://www.igi-global.com/chapter/design-guidelines-self-assessment-support/61305"
             },
             {
+                "publCode": "Diss-8",
                 "artikel": "L. Benvenuti, G. van der Veer: 'Practice what you preach: experiences with teaching 3D concepts in a virtual world', in: Shalin Hai-Jew (ed.) 'Virtual Immersive and 3D Learning Spaces: Emerging Technologies and Trends', IGI-global, 2011",
                 "link": "http://www.igi-global.com/bookstore/Chapter.aspx?TitleId=46771",
                 "hoofdstuk": "chapter 8"
@@ -164,6 +171,7 @@ const allePublicaties = [
         "projectCode": "Multimedia",
         "publicaties": [
             {
+                "publCode": "Weld",
                 "artikel": "Multimedia Production for the European Welding Institute: 'The theory of Migmag Welding' (a Leonardo project, 2006). H.Fröling; F.Daalder, I.Schaareman, M.de Rijk, L.Benvenuti."
             }
         ]

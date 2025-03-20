@@ -22,11 +22,6 @@ function initPage(myTaal) {
         .join("h2")
         .text(d => d.kopje);
 
-    // d3.select("main>header>h2")
-    //     .data(myTeksten)
-    //     //"onderzoek" in de juiste taal
-    //     .text(d => d.kopje);
-
 
     d3.select("main>ol")
         .selectAll("li")
@@ -71,7 +66,25 @@ function addPublicaties(myProjectCode) {
         .data(myPublicaties)
         .join("article")
         .text(d => "~" + d.artikel)
+        .append('a')
+        .attr('id', d => d.publCode)
+        .append('img')
+        .attr('alt', d => { addMedia(d); return "" })
 
+}
+
+function addMedia(publicatie) {
+    let myLink = document.querySelector("#" + publicatie.publCode)
+
+    if ('link' in publicatie) {
+        myLink.href = publicatie.link
+        myLink.target = "_blank"
+
+        let myImg = document.querySelector("#" + publicatie.publCode + " img");
+        myImg.src = "./Ill/icoCompuEdu.png";
+        myImg.alt = "download tekst"
+
+    }
 }
 
 //eventHandler voor het klikken op de vlaggen
