@@ -162,7 +162,8 @@ const allePublicaties = [
             {
                 "publCode": "Diss-8",
                 "artikel": "L. Benvenuti, G. van der Veer: 'Practice what you preach: experiences with teaching 3D concepts in a virtual world', in: Shalin Hai-Jew (ed.) 'Virtual Immersive and 3D Learning Spaces: Emerging Technologies and Trends', IGI-global, 2011",
-                "link": "http://www.igi-global.com/bookstore/Chapter.aspx?TitleId=46771",
+                "link": "./docs/3DVWPracticeWhatYOuPreachOU.pdf",
+                "url": "http://www.igi-global.com/bookstore/Chapter.aspx?TitleId=46771",
                 "hoofdstuk": "chapter 8"
             }
         ]
