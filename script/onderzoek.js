@@ -77,15 +77,31 @@ function addMedia(publicatie) {
     let myLink = document.querySelector("#" + publicatie.publCode)
 
     if ('link' in publicatie) {
-        myLink.href = publicatie.link
         myLink.target = "_blank"
 
-        let myImg = document.querySelector("#" + publicatie.publCode + " img");
-        myImg.src = "./Ill/icoCompuEdu.png";
-        myImg.alt = "download tekst"
+        console.log(publicatie.publCode)
+
+
+        if (publicatie.publCode != "Diss") {
+            myLink.href = publicatie.link
+
+
+            let myImg = document.querySelector("#" + publicatie.publCode + " img");
+            myImg.src = "./Ill/icoCompuEdu.png";
+            myImg.alt = "download tekst"
+
+        } else {
+            myLink.href = publicatie.lekenpraatje
+            myLink.class = "Lekenpraatje"
+            myLink.textContent = " - Lekenpraatje"
+        }
+
+
 
     }
+
 }
+
 
 //eventHandler voor het klikken op de vlaggen
 //wijzigt alle teksten van de pagina naar teksten in de opgegeven taal
