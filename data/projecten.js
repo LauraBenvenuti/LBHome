@@ -111,7 +111,7 @@ const allePublicaties = [
             {
                 "publCode": "Emp",
                 "artikel": "Benvenuti,L.,Stam, U.: 'Empowering to code a diverse population of future digital designers', Atti Didamatica 2022, Milano, 10-11.11.2022, pag. 265-274",
-                "link": "./docs/empoweringToCode.pdf"
+                "link": "./docs/EmpoweringToCode.pdf"
             }
         ]
     },
@@ -162,7 +162,7 @@ const allePublicaties = [
             {
                 "publCode": "Diss-8",
                 "artikel": "L. Benvenuti, G. van der Veer: 'Practice what you preach: experiences with teaching 3D concepts in a virtual world', in: Shalin Hai-Jew (ed.) 'Virtual Immersive and 3D Learning Spaces: Emerging Technologies and Trends', IGI-global, 2011",
-                "link": "./docs/3DVWPracticeWhatYOuPreachOU.pdf",
+                "link": "./docs/3DVWPracticeWhatYouPreachOU.pdf",
                 "url": "http://www.igi-global.com/bookstore/Chapter.aspx?TitleId=46771",
                 "hoofdstuk": "chapter 8"
             }
