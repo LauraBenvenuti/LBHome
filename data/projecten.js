@@ -5,6 +5,12 @@ const alleTeksten = [
         "kopje": "(Onderzoeks)projecten:",
         "projecten": [
             {
+                "projectCode": "DigOnb",
+                "tijd": "2023-heden:",
+                "project": "Digital Onboarding",
+                "omschrijving": "Een digitale vossenjacht, waarmee eerstejaars studenten tijdens de introductie kennismaken met elkaar en met de belangrijkste digitale systemen waarmee de opleiding werkt"
+            },
+            {
                 "projectCode": "DidInf",
                 "tijd": "2018-heden:",
                 "project": "Een didactiek van de Informatica voor niet-Informatici",
@@ -12,7 +18,7 @@ const alleTeksten = [
             },
             {
                 "projectCode": "HybridComp",
-                "tijd": "2009-heden:",
+                "tijd": "2009-2019:",
                 "project": "Informatica in hybride curricula",
                 "omschrijving": "Veel opleidingen doen 'iets' met Informatica. Welk deel van de Informatica is relevant voor de opleiding? Hoe verhoudt het beroep dat de opleiding voor ogen heeft zich met de ICT? Welke mogelijke valkuilen zijn er en hoe kunnen zij worden omzeild?",
                 "product": "Benvenuti, Laura: 'Computing Education in a Hybrid World' dissertatie, Open Universiteit Nederland",
@@ -36,8 +42,14 @@ const alleTeksten = [
     },
     {
         "taal": "it",
-        "kopje": "Ricerca:",
+        "kopje": "Ricerca e altri progetti:",
         "projecten": [
+            {
+                "projectCode": "DigOnb",
+                "tijd": "2023-oggi:",
+                "project": "Digital Onboarding",
+                "omschrijving": "Una caccia alla volpe virtuale, con la quale le matricole del cdl fanno concoscenza con le altre matricole e anche con i sistemi digitali che adoperiamo in questa Università"
+            },
             {
                 "projectCode": "DidInf",
                 "tijd": "2018-oggi:",
@@ -46,7 +58,7 @@ const alleTeksten = [
             },
             {
                 "projectCode": "HybridComp",
-                "tijd": "2009-oggi:",
+                "tijd": "2009-2019:",
                 "project": "L' Informatica nei corsi di laurea ibridi",
                 "omschrijving": "Quali aspetti dell'Informatica sono rilevanti nei corsi di laurea che trattano di argomenti attinenti all'Informatica?",
                 "product": "Benvenuti, Laura: 'Computing Education in a Hybrid World' tesi di dottorato, Open Universiteit Nederland",
@@ -71,8 +83,14 @@ const alleTeksten = [
     },
     {
         "taal": "en",
-        "kopje": "Research:",
+        "kopje": "Research and other projects:",
         "projecten": [
+            {
+                "projectCode": "DigOnb",
+                "tijd": "2023-today:",
+                "project": "Digital Onboarding",
+                "omschrijving": "A digital scavenger hunt for freshmen, to meet each other while they discover the digital systems this University works with"
+            },
             {
                 "projectCode": "DidInf",
                 "tijd": "2018-today:",
@@ -81,7 +99,7 @@ const alleTeksten = [
             },
             {
                 "projectCode": "HybridComp",
-                "tijd": "2009-today:",
+                "tijd": "2009-2019:",
                 "project": "Computing Education in a Hybrid World",
                 "product": "Benvenuti, Laura: 'Computing Education in a Hybrid World' dissertatie, Open Universiteit Nederland",
                 "link": "../docs/ComputingEduHybridWorld.pdf"
@@ -105,6 +123,11 @@ const alleTeksten = [
 
 //publicaties per project. 
 const allePublicaties = [
+    {
+        "projectCode": "DigOnb",
+        "publicaties": [
+        ]
+    },
     {
         "projectCode": "DidInf",
         "publicaties": [
