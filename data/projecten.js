@@ -5,16 +5,16 @@ const alleTeksten = [
         "kopje": "(Onderzoeks)projecten:",
         "projecten": [
             {
-                "projectCode": "DigOnb",
-                "tijd": "2023-heden:",
-                "project": "Digital Onboarding",
-                "omschrijving": "Een digitale vossenjacht, waarmee eerstejaars studenten tijdens de introductie kennismaken met elkaar en met de belangrijkste digitale systemen waarmee de opleiding werkt"
-            },
-            {
                 "projectCode": "DidInf",
                 "tijd": "2018-heden:",
                 "project": "Een didactiek van de Informatica voor niet-Informatici",
                 "omschrijving": "Onderzoek naar een didactiek van de Informatica voor HBO professionals die niet hebben gekozen voor een toekomst in de ICT"
+            },
+            {
+                "projectCode": "DigOnb",
+                "tijd": "2023-2025:",
+                "project": "Digital Onboarding",
+                "omschrijving": "Een digitale vossenjacht, waarmee eerstejaars studenten tijdens de introductie kennismaken met elkaar en met de belangrijkste digitale systemen waarmee de opleiding werkt"
             },
             {
                 "projectCode": "HybridComp",
@@ -45,16 +45,16 @@ const alleTeksten = [
         "kopje": "Ricerca e altri progetti:",
         "projecten": [
             {
-                "projectCode": "DigOnb",
-                "tijd": "2023-oggi:",
-                "project": "Digital Onboarding",
-                "omschrijving": "Una caccia alla volpe virtuale, con la quale le matricole del cdl fanno concoscenza con le altre matricole e anche con i sistemi digitali che adoperiamo in questa Università"
-            },
-            {
                 "projectCode": "DidInf",
                 "tijd": "2018-oggi:",
                 "project": "Una didattica dell'Informatica per i non addetti ai lavori",
                 "omschrijving": "Insegnare l'Informatica nei corsi di laurea adiacenti all'Informatica"
+            },
+            {
+                "projectCode": "DigOnb",
+                "tijd": "2023-2025:",
+                "project": "Digital Onboarding",
+                "omschrijving": "Una caccia alla volpe virtuale, con la quale le matricole del cdl fanno concoscenza con le altre matricole e anche con i sistemi digitali che adoperiamo in questa Università"
             },
             {
                 "projectCode": "HybridComp",
@@ -86,16 +86,16 @@ const alleTeksten = [
         "kopje": "Research and other projects:",
         "projecten": [
             {
-                "projectCode": "DigOnb",
-                "tijd": "2023-today:",
-                "project": "Digital Onboarding",
-                "omschrijving": "A digital scavenger hunt for freshmen, to meet each other while they discover the digital systems this University works with"
-            },
-            {
                 "projectCode": "DidInf",
                 "tijd": "2018-today:",
                 "project": "Computing4All in higher education",
                 "omschrijving": "Teaching computing to future professionals in other disciplines than ICT"
+            },
+            {
+                "projectCode": "DigOnb",
+                "tijd": "2023-2025:",
+                "project": "Digital Onboarding",
+                "omschrijving": "A virtual scavenger hunt for freshmen, to meet each other while they discover the digital systems this University works with"
             },
             {
                 "projectCode": "HybridComp",
@@ -124,11 +124,6 @@ const alleTeksten = [
 //publicaties per project. 
 const allePublicaties = [
     {
-        "projectCode": "DigOnb",
-        "publicaties": [
-        ]
-    },
-    {
         "projectCode": "DidInf",
         "publicaties": [
             {
@@ -136,6 +131,11 @@ const allePublicaties = [
                 "artikel": "Benvenuti,L.,Stam, U.: 'Empowering to code a diverse population of future digital designers', Atti Didamatica 2022, Milano, 10-11.11.2022, pag. 265-274",
                 "link": "./docs/EmpoweringToCode.pdf"
             }
+        ]
+    },
+    {
+        "projectCode": "DigOnb",
+        "publicaties": [
         ]
     },
     {
